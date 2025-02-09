@@ -33,8 +33,8 @@ We're a team of 5 CIU students developing **Chateo**, an Android/iOS messaging a
 
 ---
 
-**Made with ❤️  - Cyprus International University** 🎓  
-
+**Made with ❤️ by Group 5 - Cyprus International University** 🎓  
+[![CIU Badge](https://img.shields.io/badge/CIU-Cyprus_International_University-blue)](https://www.ciu.edu.tr/)
 ## 🔧 Technology Stack
 ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat&logo=flutter&logoColor=white)
 ![Dart](https://img.shields.io/badge/Dart-0175C2?style=flat&logo=dart&logoColor=white)
