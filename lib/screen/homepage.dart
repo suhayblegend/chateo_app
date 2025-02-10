@@ -12,7 +12,7 @@ class HomePage extends StatelessWidget {
             Expanded(
               child: Center(
                 child: Image.asset(
-                  'assets/images/app_logo.png',
+                  'assets/images/first.png',
                   width: 200,
                   height: 200,
                 ),
