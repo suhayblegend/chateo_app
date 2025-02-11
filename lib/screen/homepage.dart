@@ -12,9 +12,9 @@ class HomePage extends StatelessWidget {
             Expanded(
               child: Center(
                 child: Image.asset(
-                  'assets/images/first.png',
-                  width: 200,
-                  height: 200,
+                  'assets/images/chateo_logo.png',
+                  width: 700,
+                  height: 700,
                 ),
               ),
             ),
