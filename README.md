@@ -23,13 +23,13 @@ We're a team of 5 CIU students developing **Chateo**, an Android/iOS messaging a
   Android and iOS compatibility
 
 ## 🧑💻 Development Team
-| Name                  | Student ID | Role                     | Responsibilities                |
-|-----------------------|------------|--------------------------|---------------------------------|
-| Abdulqani Ahmed       | 22113807   | Backend Architect 🖥️    | Socket Programming & API Design |
-| Yousef Mohammed Ahmed | 22113415   | Security Engineer 🛡️    | Encryption Implementation       |
-| Abdiaziz Mohamed Omar | 22114594   | UI/UX Designer 🎯        | Interface Design & Prototyping  
+| Name                  | Student ID | Role                     | Responsibilities                     |
+|-----------------------|------------|--------------------------|--------------------------------------|
+| Abdulqani Ahmed       | 22113807   | Backend Architect 🖥️    | Socket Programming & API Design      |
+| Yousef Mohammed Ahmed | 22113415   | Security Engineer 🛡️    | Encryption Implementation            |
+| Abdiaziz Mohamed Omar | 22114594   | UI/UX Designer 🎯        | Interface Design & Prototyping       
 | Suhayb Dahir Ahmedegeh| 22120124   | Database Specialist 🗄️  | Integration & DB Design and Firebase |
-| Fardowso Adem Omar    | 22103021   | Frontend Developer ✨     | Flutter UI Implementation       |
+| Fardowso Adem Omar    | 22103021   | Frontend Developer ✨     | Flutter UI Implementation            |
 
 ---
 
