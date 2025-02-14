@@ -35,7 +35,7 @@ class HomePage extends StatelessWidget {
                 ],
               ),
             ),
-            _buildPolicySection(context), // Fixed: Pass context here
+            _buildPolicySection(context),
           ],
         ),
       ),
@@ -47,8 +47,8 @@ class HomePage extends StatelessWidget {
       width: double.infinity,
       child: ElevatedButton(
         style: ElevatedButton.styleFrom(
-          backgroundColor: const Color(0xFF365EFF), // Hex color
-          foregroundColor: Colors.white, // Text color
+          backgroundColor: const Color(0xFF365EFF),
+          foregroundColor: Colors.white,
           padding: const EdgeInsets.symmetric(vertical: 16),
           shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(30),
@@ -66,7 +66,6 @@ class HomePage extends StatelessWidget {
     );
   }
 
-  // Fixed: Add context parameter
   Widget _buildPolicySection(BuildContext context) {
     return Padding(
       padding: const EdgeInsets.only(top: 20, bottom: 30),
@@ -96,7 +95,13 @@ class HomePage extends StatelessWidget {
       context: context,
       builder: (_) => AlertDialog(
         title: const Text('Terms of Service'),
-        content: const Text('Your terms content here...'),
+        content: const Text(
+          'By using Chateo, you agree to comply with our terms and conditions.\n\n'
+              '1. You must be at least 13 years old to use Chateo.\n'
+              '2. You are responsible for your messages and interactions.\n'
+              '3. Do not engage in illegal, harmful, or abusive behavior.\n'
+              '4. We reserve the right to terminate accounts violating our policies.',
+        ),
         actions: [
           TextButton(
             onPressed: () => Navigator.pop(context),
@@ -112,7 +117,13 @@ class HomePage extends StatelessWidget {
       context: context,
       builder: (_) => AlertDialog(
         title: const Text('Privacy Policy'),
-        content: const Text('Your privacy policy content here...'),
+        content: const Text(
+          'Your privacy is important to us.\n\n'
+              '1. We collect minimal data to provide better services.\n'
+              '2. Your messages are encrypted for security.\n'
+              '3. We do not sell your data to third parties.\n'
+              '4. You can delete your account and data at any time.',
+        ),
         actions: [
           TextButton(
             onPressed: () => Navigator.pop(context),
