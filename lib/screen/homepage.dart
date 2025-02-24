@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'phone_number_page.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
@@ -88,7 +89,10 @@ class HomePage extends StatelessWidget {
   }
 
   void _navigateToLogin(BuildContext context) {
-    // Navigation implementation
+    Navigator.push(
+      context,
+      MaterialPageRoute(builder: (context) => const PhoneNumberPage()),
+    );
   }
 
   void _showTerms(BuildContext context) {

@@ -1,0 +1,29 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "chateo-d0bad",
+          "appId": "1:118735652017:android:f005a3830225e65c5c0e90",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "chateo-d0bad",
+          "configurations": {
+            "android": "1:118735652017:android:f005a3830225e65c5c0e90",
+            "ios": "1:118735652017:ios:bd10a225d6071d785c0e90",
+            "macos": "1:118735652017:ios:bd10a225d6071d785c0e90",
+            "web": "1:118735652017:web:a54b1662c70542115c0e90",
+            "windows": "1:118735652017:web:dafc00374297f1125c0e90"
+          }
+        }
+      }
+    }
+  },
+  "firestore": {
+    "rules": "firestore.rules",
+    "indexes": "firestore.indexes.json"
+  }
+}
